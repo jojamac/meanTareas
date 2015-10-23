@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  ignore: ['.git', 'node_modules', 'bower_components', '.sass-cache'],
+  watch: ['app.js'],
+  "env": {
+   "USER": "david"
+  },
+  "execMap": {
+   "js": "node --harmony"
+  }
+}
